@@ -1,0 +1,9 @@
+Types of Matrices
+1>Diagonal Matrix A[i][j]=0 if(i!=j)
+2>Lower triangular Matrix A[i][j]=0 if(i<=j)
+3>Upper triangular Matrix
+4>Symmetric Matrix
+5>Tridiagonal Matrix
+6>Band Matrix
+7>Topletix Matrix
+8>Sparse Matrix

@@ -1,0 +1,5 @@
+What is excessive Recursion?
+A function is calling itself for same set of paramaters  for the multiple times
+Here the time complexity would go to (2)to power n . In case of fib(n-2)+fib(n-1)
+Using memoization we can reduce the function calls by storing the values of
+same set of function values inside an global array .

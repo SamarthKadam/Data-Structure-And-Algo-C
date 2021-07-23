@@ -1,0 +1,8 @@
+Why AVL Tress are better
+if you try to find a key which looks better binary search trees or AVL Trees
+Answer is AVL tree because you make less comparisons because its height is
+less While binary search tree 's height can go up to the most
+
+AVL is pefect binary search tree
+
+Height can also be started from can't be necessarily from 0

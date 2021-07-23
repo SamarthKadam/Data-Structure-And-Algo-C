@@ -1,0 +1,21 @@
+If you want to delete
+the nodes in the given
+binary tree you can
+delete them like you
+can easily delte leaf
+nodes it becomes
+difficult when deleting
+root nodes so you decide
+
+
+predecssor or successor
+predecceso=first go left
+of the root,then go to
+the right most of the child
+it is predeccsor
+
+succesor=first go right of the root
+and then go to the left most node of
+the root it successor
+
+These are only two places where you can delete the main root node 

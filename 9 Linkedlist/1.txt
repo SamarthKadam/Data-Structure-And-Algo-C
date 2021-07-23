@@ -1,0 +1,18 @@
+So why we have linked list ,we can use array?
+So when we declare array we need to declare fixed size,or user need to enter 
+the size of the array.What if user did not want to to enter the size,this is 
+where linkedlist comes to play ,here we need not required to declare the size
+of it.
+
+What is linked list?
+Linked list is collection of nodes where each nodes contains data and pointer
+to next node;
+
+Self referential structure are used in linked list
+
+
+Important point on the c++ concepts
+So we see what's the difference between private and public ,So private is only
+accessed by the constructer and that's the major diff between structure and 
+classes 
+Structure variable's are public variables accessible.

@@ -1,0 +1,26 @@
+1> Tail Recursion
+2> Head Recursion
+3>Tree Recursion
+4> Indirect Recursion
+5>Nested Recursion
+
+Tail recursion is same as that of loops.When the condition comes which two choose for the problem it is 
+better to choose loop because its space complexities would be 1 and that of recursion would be (n).
+Time complexities would be same.
+like= 
+
+===============
+==============
+===============
+function(call);
+This will execute statements in calling time
+
+
+Head Recursion is not same as that of loops
+like=
+
+function(call);
+================
+================
+================
+This will exectue statements in return time.

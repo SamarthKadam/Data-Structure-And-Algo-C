@@ -1,0 +1,15 @@
+Time complexity
+It totally depend on work done ,It is represented as order of() or bigo of ()
+Best case is 0(1).
+
+Never decide time complexity after seeing the no of loops for eg(i=n,i>1,i/2)
+Here you see the the time complexity is supposed to be 0(n), but in reality it is 0(logn)
+some standard time complexities 
+1>1 loop=0(n)
+2>2 loop=0(n2)
+3>3 loop=0(n3)
+
+see the code and then calculate the time complexity
+
+Space complexities
+It is calculatated  using number of elements as we can say that same as order ().

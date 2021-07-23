@@ -1,0 +1,29 @@
+Space
+1>Linear Linked list= So it need n pointers
+to allocate the memory
+2>Circular Linked list=Same as above
+3>Doubly linked list=It require 2n pointers
+4>Circular Doubly linked list=Same as above
+
+Traverse
+1>One direction
+2>One direction and circular
+3>either direction
+4>either direction and circular
+
+Insert(@first node)
+1>we need order of (1)
+2> We need to travers so (N)
+3>order is (1)
+4>order is (1)
+
+Delete
+One Circular Linked list takes time of 0(n)while others are constant
+
+
+Array v/s Linked list
+1>So when you are inserting the element in 1st position in the array.Then it takes
+0(n)times and inserting the element in the last position it takes 0(1) time
+While case in linked list it takes 0(1) time in inserting list in first position
+and 0(n) in the last position
+2>For the delete it is the same as case of first

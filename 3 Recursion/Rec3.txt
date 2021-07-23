@@ -1,0 +1,12 @@
+Statement above function will execute at (Ascending) Calling time, below will exectute at return time(Descending)
+What is difference between loop and recursion
+both are repeating statements .Diffrence is that 
+Loop will have ascending phase while recursion will have ascending as well as descending phase ,this is power of recursion
+
+1>condition where we print value of n before fun call
+it is called tail recursion .
+2>condition where we print value of n after fun call
+it is called head recursion.
+
+
+Static and global variable are nearly same .

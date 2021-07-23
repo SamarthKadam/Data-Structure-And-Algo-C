@@ -1,0 +1,4 @@
+So we have a function in which we can pass parameter it can be
+1>Call by value
+2>Call by address
+3>Call by reference(int c++)

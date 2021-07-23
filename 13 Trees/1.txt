@@ -1,0 +1,44 @@
+Terminology
+Tree is a colection of nodes or vertices and edges
+if there are n nodes then there are n-1 edges(because root doesn't have edge co
+ming from any parent)
+1>Root
+2>Parent
+3>Child
+4>Sibling
+5>Descendent=All nodes under that nodes
+6>Ancenstors=Allthe path from that node to ancestor node
+7>Degree of node=No of children (What is degree of tree)It can be decided by no max
+degree of that tree
+8>Internal(non-leaf)(degree>0)/Extrenal nodes(leaf)(degree 0)
+9>Levels of tree (we just count path)
+10>height of tree (Here we count edges)
+11>Forest (collection of trees are called forest) if we assign a top ancestor for
+these forest then these will be called tree
+
+Binary Tree
+Binary tree is a tree having 0,1,2 children not more than that
+Even if can define it as tree having degree 2 is called Binary tree
+
+M arry tree
+This means that the that the node can have a hightest of 3 childrens  not
+more than that ,it also can have less then 3 children (then we will call
+it as binary but no.Like M arry tress it is predecided.
+
+Strict 3arry tree
+it means that the node in that tree can have only 3 children or 0 children but no
+1 or 0
+
+
+Full binary tree is complete binary tree
+But complete binary tree need not be a full binary tree
+
+
+3>Binary tree traversal method 3
+So for Preorder we have to take pointer that is our index finger of our
+left and and point it to right now where all does this pointer meet write the
+char
+
+for inorder pointer to the up
+for postorder pointer to the left using right hand 
+

@@ -1,0 +1,22 @@
+Array representation by the compiler
+How does the array identify 
+like 
+
+1>
+int A[10];(incase of i=0)
+Imagine now I  want to assign A[3]=0, So how will the compiler know . It doesn't
+know its name of A  Computer uses genral formula. That is 
+A[3]=A(address)+n*sizeof(int);
+
+2>
+if(i=1)
+Then the formula changes to 
+A[3]=(address)+(n-1)*sizeof(int);
+
+Computers mostly uses 1st case that is initilize using 0 ,if initilized from 1
+then it has to perfrom 3 operations which is more as compared to 1st;
+
+For 2D arrays compiler uses row major
+While both of them takes same time
+HORNERS rule
+This rule help us to reduce the multiplication by reducing or taking commen terms

@@ -1,0 +1,14 @@
+Adjustment in the memory is called padding , Like a inside structrure variable take extra memory like in case if you see
+struct rectangle{
+int lenght;
+int breadth;
+char c;
+};
+
+struct rectangle r;
+if you check the size of the r then expected would be 9 but it is 12 The machine takes the extra memory but use only 1 bytes;
+
+So why we need a pointer
+1>Pointers are used for accessing heap memory
+2> For accessing resources
+3>Pointers are also used for paramter passing

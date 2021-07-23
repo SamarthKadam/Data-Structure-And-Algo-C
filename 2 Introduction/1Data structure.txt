@@ -1,0 +1,16 @@
+What is data structure?
+It is arrangment of data, it can mulitimedia,text data anything it should be made quite efficient when it is loading on the main memory
+
+Explanation=
+When you open a program like ms word , the ms words application runs in the main memory and we have more functionality there. So when I open a text file
+through that ms word that is also bought in  the main memory So our motto is that the programs running in the main memory should be quite large efficient
+So we have to design data struture so that application can use it perfectly or process data faster.Without data structure we cannot devlope any application
+
+What is data base?
+So we have stored data in hdd or sdd ,how the data is organized in the form of table in disc is called data base.
+
+What id datawarehouse?
+It is something which stores data or very old data like history of organization companies, this data is not frequently used or data which is inactive when required can be used
+
+What is bigdata?
+Storing a very big or large data where the place , person ,people's things are stored.

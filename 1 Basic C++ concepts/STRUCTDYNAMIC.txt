@@ -1,0 +1,4 @@
+So consider Struct rectangle is a whole data type which stores two  data type variable lenght and breadth ,you can say struct rectangle as a data
+ In picture case you declare struct  rectangle pointer  and from heap you take the memory  of size 4 byte of pointer
+ And then you got the location . Then you can derefernce those and acess those
+,Refer image

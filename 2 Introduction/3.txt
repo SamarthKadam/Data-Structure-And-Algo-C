@@ -1,0 +1,4 @@
+Abstract data type
+It is something which is hidden are we are not bothered about how things work inside 
+Like we perform many function like add insert delete but not concern about how things work like those things
+are abstract for us.

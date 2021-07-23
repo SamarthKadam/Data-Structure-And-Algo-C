@@ -1,0 +1,11 @@
+The priority que is list of elements who have their priority
+Like in our case we consider smaller the element highest is its priority
+There are two ways to implement them
+1> is copy the order then delete it according to their priority
+like 1 5,6;
+This operation take bigo of n for searching
+and bigo of n for shifting 
+
+2>Copy the element in priority order like hightest prioirty element should come out 
+first like in that manner
+This operating takes inserting bigo of n

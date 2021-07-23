@@ -1,0 +1,22 @@
+Stack
+Last in first out 
+1>Data for storing operation 
+2>Top pointer
+
+if(top==-1)
+{stack null condition
+}
+
+if(full)
+{
+stackfull condition
+}
+
+
+What does associativity and precedence say you?
+we see that * and / have highest precedence and - and + and less than that
+That doesn't mean that the operands with *or/ get evualted first . It means that they
+should be evaluated first () first bracketsed;
+
+Associativity and precedence are meant for 
+paranthesization

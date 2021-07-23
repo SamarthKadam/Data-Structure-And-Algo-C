@@ -1,0 +1,7 @@
+State space tree=The tree is representing various results
+where least are showing us results.
+Going back and taking other route is termed as backtracking (approach).
+Brute force=finding all out permutation how you do its up to you.
+
+backtracking is achieved through recursion. With the help of backtraking we can 
+achive brute force approach

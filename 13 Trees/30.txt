@@ -1,0 +1,1 @@
+To count the number of internal nodes you make or change the program to or operater

@@ -1,0 +1,2 @@
+So we have monolothic programming =All function inside main function all 
+, and modular and proceudural programming==defined in set of instruction

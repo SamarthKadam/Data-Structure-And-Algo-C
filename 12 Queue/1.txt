@@ -1,0 +1,14 @@
+Queue is FIFO first in first out
+if we want to insert something we insert in its rear end
+if we want to delete something we delete it
+from front end
+
+
+1>Que using single pointer
+It takes bigo of 1 for insert 
+and it takes bigo of n for delete therefore we avoid it
+2>Que using double pointer 
+it takes bigo of 1
+
+DE is double ended queue
+It is where we don't follow que rule
