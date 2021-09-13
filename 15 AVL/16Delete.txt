@@ -1,0 +1,10 @@
+Rotations for deletion
+1>L1
+The left of the root element
+has balance factor 1
+2>L-1
+The left of the root element
+has balance factor -1
+3>l0 
+The left of the root element
+has balance factor 0

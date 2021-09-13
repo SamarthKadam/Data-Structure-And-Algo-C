@@ -59,19 +59,44 @@ struct Node* LRRotation(struct Node *p)
 	
 	if(p==root)
 	{
-		return plr;
+		root=plr;
 	}
 	return plr;
 	
 }
 struct Node* RRRotation(struct Node *p)
 {
-return NULL;	
+	struct Node* pr=p->rchild;
+	struct Node* prl=pr->lchild;
+	pr->lchild=p;
+	p->rchild=prl;
+	p->height=NodeHeight(p);
+	pr->height=NodeHeight(pr);
+	if(root==p)
+	{
+		root=pr;
+	}
+	return pr;
 }
 struct Node* RLRotation(struct Node *p)
 {
-	return NULL;
+	struct Node* pr=p->rchild;
+	struct Node* prl=pr->lchild;
 	
+	pr->lchild=prl->rchild;
+	p->rchild=prl->lchild;
+	prl->lchild=p;
+	prl->rchild=pr;
+	
+	p->height=NodeHeight(p);
+	pr->height=NodeHeight(pr);
+	prl->height=NodeHeight(prl);
+	
+	if(p==root)
+	{
+		root=prl;
+	}
+	return prl;
 }
 struct Node* Rinsert(struct Node *p,int key)
 {
@@ -103,11 +128,11 @@ struct Node* Rinsert(struct Node *p,int key)
 	{
 	 return LRRotation(p);
 	}
-	else if(BalanceFactor(p)==-2 && BalanceFactor(p->lchild)==-1)
+	else if(BalanceFactor(p)==-2 && BalanceFactor(p->rchild)==-1)
 	{
 	 return RRRotation(p);
 	}
-	else if(BalanceFactor(p)==-2 && BalanceFactor(p->lchild)==1)
+	else if(BalanceFactor(p)==-2 && BalanceFactor(p->rchild)==1)
 	{
 	 return RLRotation(p);
 	}
@@ -124,7 +149,6 @@ void preorder(struct Node *p)
 		preorder(p->rchild);
 	}
 }
-
 int main()
 {
 	root=Rinsert(root,10);

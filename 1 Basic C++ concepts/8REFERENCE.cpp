@@ -7,6 +7,9 @@ int main()
 	int &r=a;///This is called reference varialble where 1 variable name has a and r,This statement means that a should be also known as r
 	cout<<r<<endl;
 	cout<<a<<endl;
+	r++;
+	cout<<a<<endl;
+	cout<<r<<endl;
 	return 0;
 }
 

@@ -1,0 +1,5 @@
+Heap is helping us to implement Priority QUes
+1>heap is the best data structure to implement priority ques
+When you try to implement it in the array 
+1>insertion take bigo of 1 and deletion would take 1>bigo of n for searching2>bigo of n
+for shifting

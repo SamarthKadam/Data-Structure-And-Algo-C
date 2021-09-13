@@ -128,8 +128,8 @@ void preorder(struct Node *p)
 int main()
 {
 	root=Rinsert(root,10);
-	Rinsert(root,5);
-	Rinsert(root,2);
+	Rinsert(root,9);
+	Rinsert(root,7);
 	preorder(root);
 	return 0;
 }

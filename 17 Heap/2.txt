@@ -1,0 +1,6 @@
+It is complete binary tree
+Heap must be complete binary
+tree there must not be
+any blank spaces in between like
+ in case of array We can also represent them using linked list in algorith we
+use it as array

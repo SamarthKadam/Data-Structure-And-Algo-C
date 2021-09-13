@@ -11,6 +11,6 @@ int main()
 	ptr=(struct rectangle*)malloc(sizeof(struct rectangle));
 	(*ptr).lenght=77;
 	(*ptr).breadth=28;
-	printf("%d%d",(*ptr).lenght,(*ptr).breadth);
+	printf("%d \t %d",(*ptr).lenght,(*ptr).breadth);
 	return 0;
 }

@@ -15,7 +15,7 @@ int fun(int a,int b)
 int main()
 {
 	int answer;
-	answer=fun(2,4);
+	answer=fun(2,6);
 	printf("%d",answer);
 	return 0;
 }

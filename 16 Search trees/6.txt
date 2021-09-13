@@ -1,0 +1,18 @@
+So this 2-3 Arry  trees are used in dbms softwaters like oracle mysql
+You can fetch 2 data at a time in these arry tree unlike in binary tree
+you can only fetch 1 data
+
+height
+Height of 2-3 Arry tree is much smaller than binary trees
+
+
+
+Red Black trees
+When uncle is red and parent is red then we do the process called recoloring
+When uncle is black and parent is red then we do the process called rotation
+
+LL or RR rotation are here termed as zig zig
+And LR or RL rotation are here termed as zig zag
+
+if you want to confirm whether that tree is correct then count no of blacks
+from root to leaf leaving the leafs child
