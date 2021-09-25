@@ -19,6 +19,6 @@ float efun(int x, int y)
 }
 int main()
 {
-	printf("%f",efun(4,15));
+	printf("%f",efun(4,4));
 	return 0;
 }

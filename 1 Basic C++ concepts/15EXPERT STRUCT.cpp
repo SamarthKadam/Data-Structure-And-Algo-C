@@ -5,8 +5,10 @@ struct rectangle{
 };
 void in(struct rectangle *ptr,int l, int b)
 {
-	(*ptr).lenght=l;
-	(*ptr).breadth=b;
+//	(*ptr).lenght=l;
+//	(*ptr).breadth=b;
+this->lenght=l;
+this->breadth=b;
 }
 int area(struct rectangle *ptr)
 {

@@ -4,7 +4,7 @@ struct rectangle{
 	int lenght;
 	int breadth;
 };
-struct rectangle *fun()
+struct rectangle* fun()
 {
 	struct rectangle *p;
 	p=(struct rectangle*)malloc(sizeof(struct rectangle));

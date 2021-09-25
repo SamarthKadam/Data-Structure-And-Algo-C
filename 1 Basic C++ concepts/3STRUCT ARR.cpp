@@ -1,16 +1,17 @@
 #include<stdio.h>
 #include<string.h>
-typedef struct student
+ struct student
 {
 	int rollno;
 	char name[50];
 	char add[50];
 	
-}stud;
+};
 int main()
 {
-	stud s1[3]={{33,"Samarth","Karwar"},{22,"Harry","Dublapur"},{32,"kamlesh","Dholokpur"}};//You can declare multiple structres of array like in here case
+    struct student s1[3]={{33,"Samarth","Karwar"},{22,"Harry","Dublapur"},{32,"kamlesh","Dholokpur"}};//You can declare multiple structres of array like in here case
 	strcpy(s1[1].name,"Rakshit");
+	printf("The size of the structure is %d\n",sizeof(struct student));
 	printf("%s",s1[1].name);
 	s1[2].rollno=12;
 	printf("%s",s1[0].name);
