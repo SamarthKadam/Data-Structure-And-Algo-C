@@ -99,7 +99,7 @@ char* inpost(char *infix)
 }
 int main()
 {
-	char *infix="a+b*c-d/e";
+	char *infix="a*b-c+d";
 	char *postfix=inpost(infix);
 	printf("%s",postfix);
 	return 0;

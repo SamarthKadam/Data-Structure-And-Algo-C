@@ -79,7 +79,7 @@ int isbalanced(char *exp)
 }
 int main()
 {
-	char *exp="((A+B)+(C+D))";
+	char *exp="[[(A+B)]+[(C+D)]";
 	printf("%d",isbalanced(exp));
 	return 0;
 }

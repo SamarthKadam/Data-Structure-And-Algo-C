@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>///consider here NO set should have duplicate elements
 int main()
 {
 	int eff=0;

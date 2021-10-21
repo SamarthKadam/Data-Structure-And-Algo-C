@@ -71,7 +71,7 @@ void postorder(struct Node *p)
 int main()
 {
 	treecreate();
-	preorder(root);
+//	preorder(root);
 	printf("\nPost order");
 	postorder(root);	
 	return 0;

@@ -48,10 +48,9 @@ int main()
 	q.front=-1;
 	q.rear=-1;
 	q.Q=(int*)malloc(q.size*sizeof(int));
-	enqueu(&q,10);
-	enqueu(&q,20);
-	enqueu(&q,30);
-	enqueu(&q,40);
+	enqueu(&q,2);
+	enqueu(&q,5);
+	enqueu(&q,9);
 	display(q);
 	printf("The deleted item is  %d\n",dequeu(&q));
 	return 0;

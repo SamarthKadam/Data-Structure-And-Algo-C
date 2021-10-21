@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>///This one was perfect
 int main()
 {
 	int eff=0;
