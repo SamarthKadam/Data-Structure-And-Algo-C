@@ -11,7 +11,7 @@ void ShellSort(int A[],int n)
  int gap,i,j,temp;
 
  for(gap=n/2;gap>=1;gap/=2)
- {
+ {  
  for(i=gap;i<n;i++)
  {
  temp=A[i];

@@ -1,4 +1,4 @@
-void Merge(int A[],int l,int mid,int h)
+ void Merge(int A[],int l,int mid,int h)
 {
  int i=l,j=mid+1,k=l;
  int B[100];

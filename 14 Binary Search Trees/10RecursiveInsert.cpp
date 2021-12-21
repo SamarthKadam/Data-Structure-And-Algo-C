@@ -160,6 +160,7 @@ struct Node *Delete(struct Node *p,int key)
 			p->rchild=Delete(p->rchild,q->data);
 			
 		}
+		
 	}
 	return p;
 }

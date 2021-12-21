@@ -17,8 +17,7 @@ return i;
 }
 
 struct node* build(int *inorder,int *preorder,int start,int stop)
-
-{
+{ 
 static int p=0;
 int split;
 struct node *t;
