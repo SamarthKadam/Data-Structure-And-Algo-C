@@ -77,7 +77,7 @@ int count(struct Node *p)
 		y=count(p->rchild);
 		if(x>y)
 		{
-			x+1;
+		return x+1;
 		}
 		else {
 			return y+1;

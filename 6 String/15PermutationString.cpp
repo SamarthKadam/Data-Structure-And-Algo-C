@@ -19,7 +19,7 @@ void perm(char s[10],int l,int h)
 	else{
 		for(i=l;i<=h;i++)
 		{
-			swap(&s[l],&s[h]);
+			swap(&s[l],&s[i]);
 			perm(s,l+1,h);
 			swap(&s[l],&s[i]);
 		}
