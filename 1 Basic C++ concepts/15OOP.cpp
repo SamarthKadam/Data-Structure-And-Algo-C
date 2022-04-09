@@ -35,9 +35,11 @@ int main()
 	scanf("%d",&l);
 	scanf("%d",&b);
 	rectangle r(l,b);//struct rectangle r=====rectangle r///We can call this ojbect//You can call all the function using . operater,,You can have direct initlization as rectangle r(10,5); instead of calling a function,it .Object is created and automatically the functio is called
+	rectangle p(5,5);
 	result=r.area();
 	peri=r.perimeter();
-	printf("%d",result);
-	printf("%d",peri);
+	printf("%d\n",result);
+	printf("%d\n",peri);
+	printf("This is an another object created %d\n",p.area());
 	return 0;
 }

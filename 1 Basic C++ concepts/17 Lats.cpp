@@ -5,6 +5,7 @@ class rectangle{
 	private:
 	int lenght;
 	int breadth;
+	
 	public:
  rectangle(int n, int q)
 {
@@ -21,7 +22,6 @@ int area()
 	printf("Destructor");//It is used to delloactate the space or memory after using, like free ptr.
 }
 };
-int rectangle::area();
 int main()
 {
 	int value;
